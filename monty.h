@@ -1,5 +1,5 @@
-#ifndef __MONTY_H__
-#define __MONTY_H__
+ifndef __MONTY_H__
+define __MONTY_H__
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,6 +10,7 @@
 #define DELIMS " \n\t\a\b"
 
 /* GLOBAL OPCODE TOKENS */
+
 extern char **op_toks;
 
 /**
